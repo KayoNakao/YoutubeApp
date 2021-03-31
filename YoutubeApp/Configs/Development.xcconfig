@@ -1,0 +1,23 @@
+//
+//  Development.xcconfig
+//  YoutubeApp
+//
+//  Created by Filip Jandrijevic on 2019-01-04.
+//  Copyright © 2019 Guarana Technologies Inc. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+#include "Pods/Target Support Files/Pods-YoutubeApp/Pods-YoutubeApp.debug (development).xcconfig"
+#include "Pods/Target Support Files/Pods-YoutubeApp/Pods-YoutubeApp.release (development).xcconfig"
+
+// Parse Server Keys
+PARSE_URL = https:/$()/www.development.template.com/parse
+PARSE_APP_ID = enter app ID
+
+// App Settings
+APP_NAME = YoutubeApp α
+APP_BUNDLE_ID = com.guarana.YoutubeApp
+
+APP_CENTER_KEY = enter app center key

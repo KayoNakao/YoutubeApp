@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  YoutubeApp
+
+  Created by Filip Jandrijevic on 2019-02-27.
+  Copyright © 2019 Guarana Technologies Inc. All rights reserved.
+*/
+
+/*
+ GENERAL
+ */
+"oops" = "Oops";
+"ok" = "Ok";

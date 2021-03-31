@@ -1,0 +1,52 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+default_platform(:ios)
+
+platform :ios do
+
+	# Usage
+	# `fastlane deploy` to send Stag version to Collaborators group on AppCenter
+	# `fastlane deploy client:true to send to everyone`
+
+	lane :deploy do |options|
+
+		build_app(scheme: "YoutubeApp (Staging)",
+			workspace: "YoutubeApp.xcworkspace",
+			output_directory: "./archive",
+			output_name: "internal_testing.ipa",
+			silent: true,
+			destination: "generic/platform=iOS",
+			export_options: {
+				method: "enterprise"
+			}
+		)
+
+		destination = options[:client] ? "*" : "Collaborators"
+
+		appcenter_upload(
+			# You need to generate a new API Token with full access at https://appcenter.ms/orgs/Guarana/apps/projectName/settings/apitokens
+			api_token: "ENTER API TOKEN",
+			owner_name: "Guarana",
+			owner_type: "organization",
+			app_name: "YoutubeApp", #appcenter app name (as seen in app URL)
+			file: "./archive/internal_testing.ipa",
+			destinations: destination,
+			notify_testers: true
+		)
+
+		push_to_git_remote
+	end
+end
