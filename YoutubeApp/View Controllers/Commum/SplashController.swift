@@ -7,32 +7,41 @@
 //
 
 import UIKit
+import GoogleSignIn
+
+protocol SplashControllerDelegate: class {
+    func showConnectionScreen()
+    func showHomeScreen()
+}
 
 class SplashController: UIViewController {
+    
+    weak var delegate: SplashControllerDelegate?
+    private let authManager = AuthManager()
+    
     private lazy var titleLabel: UILabel = {
         let label = UILabel()
         label.text = Environment.getValue(forKey: .appName)
-        label.translatesAutoresizingMaskIntoConstraints = false
-        label.sizeToFit()
+        label.font = Font.headingStrong
         return label
     }()
     
     private lazy var activityIndicator: UIActivityIndicatorView = {
         let ai = UIActivityIndicatorView()
-        ai.translatesAutoresizingMaskIntoConstraints = false
         ai.color = .lightGray
         return ai
     }()
     
     init() {
         super.init(nibName: nil, bundle: nil)
+        self.authManager.delegate = self
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         configureView()
         configureLayout()
+        authenticate()
     }
     
     required init?(coder aDecoder: NSCoder) {
@@ -42,22 +51,39 @@ class SplashController: UIViewController {
 
 private extension SplashController {
     func configureView() {
-        view.backgroundColor = .white
+        view.backgroundColor = .black
     }
     
     func configureLayout() {
-        view.addSubview(titleLabel)
-        NSLayoutConstraint.activate([
-            titleLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-            titleLabel.centerYAnchor.constraint(equalTo: view.centerYAnchor)
-            ])
-        
         view.addSubview(activityIndicator)
-        NSLayoutConstraint.activate([
-            activityIndicator.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-            activityIndicator.topAnchor.constraint(equalTo: titleLabel.bottomAnchor, constant: 16)
-            ])
-        
+        activityIndicator.snp.makeConstraints { make in
+            make.center.equalToSuperview()
+        }
         activityIndicator.startAnimating()
+        
+        view.addSubview(titleLabel)
+        titleLabel.snp.makeConstraints { make in
+            make.bottom.equalTo(activityIndicator.snp.top).offset(-24)
+            make.centerX.equalToSuperview()
+        }
+    }
+    
+    func authenticate() {
+        if GIDSignIn.sharedInstance()?.currentUser == nil {
+            delegate?.showConnectionScreen()
+        } else {
+            authManager.refreshToken()
+                .done { _ in
+                    self.delegate?.showHomeScreen()
+                }.catch { _ in
+                    self.delegate?.showConnectionScreen()
+                }
+        }
+    }
+}
+
+extension SplashController: AuthManagerDelegate {
+    func didSignIn() {
+        delegate?.showHomeScreen()
     }
 }

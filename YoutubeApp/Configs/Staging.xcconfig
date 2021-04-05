@@ -12,12 +12,9 @@
 #include "Pods/Target Support Files/Pods-YoutubeApp/Pods-YoutubeApp.debug (staging).xcconfig"
 #include "Pods/Target Support Files/Pods-YoutubeApp/Pods-YoutubeApp.release (staging).xcconfig"
 
-// Parse Server Keys
-PARSE_URL = https:/$()/www.staging.template.com/parse
-PARSE_APP_ID = enter app ID
-
 // App Settings
-APP_NAME = YoutubeApp Stag
-APP_BUNDLE_ID = enter.bundle.id
+APP_NAME = YoutubeApp
+APP_BUNDLE_ID = com.kayonakao.YoutubeApp
 
-APP_CENTER_KEY = enter app center key
+GOOGLE_CLIENT_ID = 897674241627-oplcocaaou0fgcd946j3pt3v5m4a5r06.apps.googleusercontent.com
+GOOGLE_API_KEY = AIzaSyCq-PW9VdNTpB6WUDVJ8Z_ox0h3AIWV17Q

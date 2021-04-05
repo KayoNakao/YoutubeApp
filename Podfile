@@ -6,10 +6,14 @@ target 'YoutubeApp' do
   use_frameworks!
 
   # Pods for YoutubeApp
-
+  pod 'GoogleSignIn'
+  pod 'Alamofire', '~> 5.2'
+  pod 'PromiseKit'
+  
   # UI Pods
   pod 'SnapKit'
-
+  pod 'SDWebImage'
+  
   target 'YoutubeAppTests' do
     inherit! :search_paths
     # Pods for testing

@@ -6,8 +6,25 @@
   Copyright © 2019 Guarana Technologies Inc. All rights reserved.
 */
 
-/*
- GENERAL
- */
+
+// General
 "oops" = "Oops";
 "ok" = "Ok";
+"cancel" = "Cancel";
+"sign_out" = "Sign out";
+
+// Home
+"home_title" = "Playlists";
+"home_video" = "%d video";
+"home_videos" = "%d videos";
+"home_sign_out_message" = "Are you sure you want to sign out?";
+"home_recent_add" = "Recently added";
+"home_a_z" = "A to Z";
+"home_z-a" = "Z to A";
+
+// Error
+"error_title" = "Error";
+"error_unknown" = "Unknown error";
+"error_no_authentication" = "No authentication";
+
+

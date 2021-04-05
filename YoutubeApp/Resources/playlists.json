@@ -1,0 +1,363 @@
+{
+  "items": [
+    {
+      "snippet": {
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/rtQxQW6MN68/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/rtQxQW6MN68/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/rtQxQW6MN68/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/rtQxQW6MN68/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/rtQxQW6MN68/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "title": "NLP",
+        "channelId": "UCLmpIOqlSQacV7N4EbnRoJg",
+        "publishedAt": "2021-03-29T07:28:16Z",
+        "channelTitle": "Kayo Nakao",
+        "localized": {
+          "description": "",
+          "title": "NLP"
+        },
+        "description": ""
+      },
+      "contentDetails": {
+        "itemCount": 2
+      },
+      "kind": "youtube#playlist",
+      "etag": "k60LfFAd8yNbrjMnOgn9Be7H3mw",
+      "id": "PLONhgC20ad2ZoGYKX6HyCBv-dHqSbXV-k"
+    },
+    {
+      "snippet": {
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/9DShDw8Nl2g/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/9DShDw8Nl2g/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/9DShDw8Nl2g/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/9DShDw8Nl2g/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "title": "\u3082\u3063\u3061\u30fc",
+        "channelId": "UCLmpIOqlSQacV7N4EbnRoJg",
+        "publishedAt": "2020-05-26T01:59:34Z",
+        "channelTitle": "Kayo Nakao",
+        "localized": {
+          "description": "",
+          "title": "\u3082\u3063\u3061\u30fc"
+        },
+        "description": ""
+      },
+      "contentDetails": {
+        "itemCount": 1
+      },
+      "kind": "youtube#playlist",
+      "etag": "R63_mCRCtq00ei86Pk4ync5-Xdw",
+      "id": "PLONhgC20ad2bD0YbK6kSHk2wJM2g2jIZo"
+    },
+    {
+      "snippet": {
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/BWEGdBJ1AAE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/BWEGdBJ1AAE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/BWEGdBJ1AAE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/BWEGdBJ1AAE/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/BWEGdBJ1AAE/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "title": "Booth",
+        "channelId": "UCLmpIOqlSQacV7N4EbnRoJg",
+        "publishedAt": "2020-05-20T02:02:24Z",
+        "channelTitle": "Kayo Nakao",
+        "localized": {
+          "description": "",
+          "title": "Booth"
+        },
+        "description": ""
+      },
+      "contentDetails": {
+        "itemCount": 2
+      },
+      "kind": "youtube#playlist",
+      "etag": "dsKXofqlsp8SExQjIBiD_W6A1_Y",
+      "id": "PLONhgC20ad2bnvuCvDdOyvhJ0u6QTKmvn"
+    },
+    {
+      "snippet": {
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/9DJsJzIekv4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/9DJsJzIekv4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/9DJsJzIekv4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/9DJsJzIekv4/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/9DJsJzIekv4/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "title": "Perfect",
+        "channelId": "UCLmpIOqlSQacV7N4EbnRoJg",
+        "publishedAt": "2020-05-18T20:15:33Z",
+        "channelTitle": "Kayo Nakao",
+        "localized": {
+          "description": "",
+          "title": "Perfect"
+        },
+        "description": ""
+      },
+      "contentDetails": {
+        "itemCount": 2
+      },
+      "kind": "youtube#playlist",
+      "etag": "OLlj8S1dgHBGWa-MNBLn70t-hGw",
+      "id": "PLONhgC20ad2ayGS_XE-2SXmioQxfCt8oB"
+    },
+    {
+      "snippet": {
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/OAsQSymGI5c/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/OAsQSymGI5c/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/OAsQSymGI5c/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/OAsQSymGI5c/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/OAsQSymGI5c/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "title": "Pasta",
+        "channelId": "UCLmpIOqlSQacV7N4EbnRoJg",
+        "publishedAt": "2019-11-18T21:19:55Z",
+        "channelTitle": "Kayo Nakao",
+        "localized": {
+          "description": "",
+          "title": "Pasta"
+        },
+        "description": ""
+      },
+      "contentDetails": {
+        "itemCount": 1
+      },
+      "kind": "youtube#playlist",
+      "etag": "y-07GkPBFHYGu5OMXLseWrPgHck",
+      "id": "PLONhgC20ad2bOBoNFhxfwZXs1rOMIsaU7"
+    },
+    {
+      "snippet": {
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/MLXeV_R8Y3s/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/MLXeV_R8Y3s/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/MLXeV_R8Y3s/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/MLXeV_R8Y3s/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "title": "Baguette",
+        "channelId": "UCLmpIOqlSQacV7N4EbnRoJg",
+        "publishedAt": "2019-10-27T16:20:34Z",
+        "channelTitle": "Kayo Nakao",
+        "localized": {
+          "description": "",
+          "title": "Baguette"
+        },
+        "description": ""
+      },
+      "contentDetails": {
+        "itemCount": 7
+      },
+      "kind": "youtube#playlist",
+      "etag": "JCm9K_rXbUWCsKmNNmW23cogSvk",
+      "id": "PLONhgC20ad2b9AfaWXTxd00MnY3l-uQYF"
+    },
+    {
+      "snippet": {
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/gvyRdVq36sg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/gvyRdVq36sg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/gvyRdVq36sg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/gvyRdVq36sg/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/gvyRdVq36sg/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "title": "-\u3072\u3068\u308a",
+        "channelId": "UCLmpIOqlSQacV7N4EbnRoJg",
+        "publishedAt": "2019-04-27T05:32:10Z",
+        "channelTitle": "Kayo Nakao",
+        "localized": {
+          "description": "",
+          "title": "-\u3072\u3068\u308a"
+        },
+        "description": ""
+      },
+      "contentDetails": {
+        "itemCount": 3
+      },
+      "kind": "youtube#playlist",
+      "etag": "zekyZRo2hMfIXfR2BygXYqD14aU",
+      "id": "PLONhgC20ad2beUEovVmT_rzRaLQ5ffsjm"
+    },
+    {
+      "snippet": {
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/bo_efYhYU2A/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/bo_efYhYU2A/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/bo_efYhYU2A/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/bo_efYhYU2A/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "title": "Star is born",
+        "channelId": "UCLmpIOqlSQacV7N4EbnRoJg",
+        "publishedAt": "2019-04-05T09:06:16Z",
+        "channelTitle": "Kayo Nakao",
+        "localized": {
+          "description": "",
+          "title": "Star is born"
+        },
+        "description": ""
+      },
+      "contentDetails": {
+        "itemCount": 1
+      },
+      "kind": "youtube#playlist",
+      "etag": "0zX_1RWbb7skpmNMV5Hxr1xAWjE",
+      "id": "PLONhgC20ad2bQgCb8WjddUhzwd_OSD_td"
+    }
+  ],
+  "kind": "youtube#playlistListResponse",
+  "etag": "yrQnKKwElSQP_cR80-Ki-jguJLA",
+  "pageInfo": {
+    "resultsPerPage": 25,
+    "totalResults": 8
+  }
+}

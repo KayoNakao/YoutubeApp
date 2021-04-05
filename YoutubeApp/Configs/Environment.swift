@@ -12,9 +12,8 @@ extension Environment {
     enum Variable: String {
         case appName = "APP_NAME"
         case appBundleID = "APP_BUNDLE_ID"
-        case appCenterKey = "APP_CENTER_KEY"
-        case parseAppId = "PARSE_APP_ID"
-        case parseURL = "PARSE_URL"
+        case googleClientID = "GOOGLE_CLIENT_ID"
+        case googleApiKey = "GOOGLE_API_KEY"
     }
 }
 

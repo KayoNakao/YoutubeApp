@@ -7,13 +7,14 @@
 //
 
 import UIKit
-
+import GoogleSignIn
 /// The AppCoordinator is our first coordinator
 /// In this example the AppCoordinator as a rootViewController
 class AppCoordinator: RootViewCoordinator {
     
     // MARK: - Properties    
     var childCoordinators: [Coordinator] = []
+    private lazy var splashVC = SplashController()
     
     /// Remember to change the UIViewController instance to your Splash Screen
     private(set) var rootViewController: UIViewController = SplashController() {
@@ -31,7 +32,8 @@ class AppCoordinator: RootViewCoordinator {
     public init(window: UIWindow) {
         self.window = window
         self.window.backgroundColor = .white
-        self.window.rootViewController = rootViewController
+        self.splashVC.delegate = self
+        self.window.rootViewController = splashVC
         self.window.makeKeyAndVisible()
     }
     
@@ -41,9 +43,30 @@ class AppCoordinator: RootViewCoordinator {
         rootViewController = coordinator.rootViewController
     }
     
-    /// Starts the coordinator
-    func start() {
+    func start() {}
+}
+
+extension AppCoordinator: SplashControllerDelegate, HomeCoordinatorDelegate {
+    func showHomeScreen() {
+        setupHome()
+    }
+    
+    func showConnectionScreen() {
+        setupConnection()
+    }
+}
+
+extension AppCoordinator {
+    func setupConnection() {
+        let connectionCoordinator = ConnectionCoordinator()
+        addChildCoordinator(connectionCoordinator)
+        setCurrentCoordinator(connectionCoordinator)
+    }
+    
+    func setupHome() {
+        childCoordinators.removeAll()
         let homeCoordinator = HomeCoordinator()
+        homeCoordinator.delegate = self
         addChildCoordinator(homeCoordinator)
         setCurrentCoordinator(homeCoordinator)
     }
